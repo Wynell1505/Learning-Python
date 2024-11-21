@@ -1,4 +1,3 @@
-"""
 #build a generic addition program
 x = 1
 y = 2
@@ -18,7 +17,7 @@ y = float(input("What's y? "))
 
 z = round(x + y)
 print(f"z:,") #this formatting adds a comma after every three digits 
-"""
+
 #create a chain on functions that x a number entered by the user
 def main():
     x = int(input("What's x? "))
@@ -28,3 +27,6 @@ def square(n):
     return n*n
 
 main()
+
+#testing how github uploading works
+print(1+1)
